@@ -44,3 +44,7 @@ Built 2026-08-29 from the `## Sources` sections of C1–C5. 230 local keys → 2
 - C3's source list carries no per-source tags; its sources are all verified primary/peer-reviewed, so they are `documented`, except **C3-53** (Netflix analytics-engineering post: HTTP 403, body marked `[inferred — post body not fetched]`) → `inferred`, and **C3-18** (Urwick, verified via secondary sources) → `documented` with a note.
 - C4 assigns no evidence tags; all its entries are fetched books, blogs and podcasts → `documented`.
 - No merged pair had conflicting tags.
+
+
+## Added in review
+- C2-51 — Wikipedia, *Warner Bros. Discovery* (tertiary): added in cycle 2 (fact-check B2-8) to source the Fig 2.1 timeline rows for April and August 2022.

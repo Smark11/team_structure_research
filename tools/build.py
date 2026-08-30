@@ -69,6 +69,7 @@ for s in SRC:
 
 TAGCLS = {"documented": "tag-doc", "inferred": "tag-inf", "folklore": "tag-folk"}
 def qualifier(s):
+    if "qualifier" in s: return s["qualifier"] or ""
     note = (s.get("note", "") or "").lower()
     for word, label in (("tertiary", "tertiary"), ("wikipedia", "tertiary"), ("vendor", "vendor"), ("marketing", "vendor"), ("secondary", "secondary"), ("search index", "index only"), ("search-index", "index only"), ("excerpt", "excerpt only"), ("403", "blocked; title-level"), ("metadata", "metadata only"), ("summary", "summary only"), ("recruiting", "recruiting copy"), ("via ", "via secondary"), ("scanned", "abstract only")):
         if word in note: return label
@@ -97,7 +98,7 @@ def preview_html(s, n):
     return (f'<div data-id="s-{n}"><strong>{n}.</strong> {title}<br><span class="who">{who}{(" · " + venue) if venue else ""}{(" · " + year) if year else ""}</span> '
             f'<span class="tag {TAGCLS[tag]}">{tag}</span><br><a href="{url}">{url}</a></div>')
 
-SUPRUN = re.compile(r'(?:<sup class="c">(?:<a href="sources\.html#s-\d+">\d+</a>)+</sup>\s*){2,}|<sup class="c">(?:<a href="sources\.html#s-\d+">\d+</a>){2,}</sup>')
+SUPRUN = re.compile(r'<sup class="c">(?:<a href="sources\.html#s-\d+">\d+</a>)+</sup>(?:\s*<sup class="c">(?:<a href="sources\.html#s-\d+">\d+</a>)+</sup>)*')
 def collapse_sups(html_text):
     def rep(m):
         nums = sorted({int(x) for x in re.findall(r'#s-(\d+)"', m.group(0))})
@@ -112,7 +113,28 @@ def collapse_sups(html_text):
                 out.extend(f'<a href="sources.html#s-{n}">{n}</a>' for n in nums[i:j+1])
             i = j + 1
         return '<sup class="c">' + ''.join(out) + '</sup>'
-    return SUPRUN.sub(rep, html_text)
+    out = SUPRUN.sub(rep, html_text)
+    # chip order: period, citation run, space, chip  (D2-7)
+    out = re.sub(r'\s*(<span class="tag tag-[a-z]+">[^<]*</span>)([.,;:])(<sup class="c">.*?</sup>)?', lambda m: m.group(2) + (m.group(3) or '') + ' ' + m.group(1), out)
+    out = re.sub(r'(<sup class="c">.*?</sup>)\s*(<span class="tag tag-[a-z]+">[^<]*</span>)', r'\1 \2', out)
+    return out
+
+def smart_quotes(html_text):
+    # text nodes only; skip code, urls, svg attribute values are not text nodes so they are safe
+    parts = re.split(r'(<[^>]+>)', html_text)
+    in_code = 0
+    for i, p in enumerate(parts):
+        if p.startswith('<'):
+            if re.match(r'<code\b|<pre\b', p): in_code += 1
+            elif re.match(r'</code>|</pre>', p): in_code -= 1
+            continue
+        if in_code or not p.strip(): continue
+        p = re.sub(r'(^|[\s(\[\u2014\u2013/])"', '\\1\u201c', p)
+        p = p.replace('"', '\u201d')
+        p = re.sub(r'(^|[\s(\[\u2014\u2013])\'', '\\1\u2018', p)
+        p = p.replace("'", '\u2019')
+        parts[i] = p
+    return ''.join(parts)
 
 H2 = re.compile(r'<h2 id="([^"]+)">(.*?)</h2>', re.S)
 def number_sections(html_text, sec):
@@ -140,7 +162,7 @@ def render(name, section, h1, dek, desc, content, idx, cited_nums):
     reps = {
       "{{PAGE_TITLE}}": html.escape(section if name != "index" else "The Recommendation"),
       "{{PAGE_DESC}}": html.escape(desc), "{{NUM}}": str(idx + 1), "{{SECTION_NAME}}": section,
-      "{{H1}}": h1, "{{DEK}}": dek, "{{READ_TIME}}": f"{words:,} words · {mins} min",
+      "{{H1}}": h1, "{{DEK}}": dek, "{{READ_TIME}}": f"Section {idx+1} of {len(PAGES)}",
       "{{CONTENT}}": content,
       "{{PREV_HREF}}": PAGES[prev_i][0] + ".html", "{{PREV_TITLE}}": f"{prev_i+1} · {PAGES[prev_i][1]}",
       "{{NEXT_HREF}}": PAGES[next_i][0] + ".html", "{{NEXT_TITLE}}": f"{next_i+1} · {PAGES[next_i][1]}",
@@ -164,9 +186,9 @@ for idx, (name, section, h1, dek, desc) in enumerate(PAGES):
                  f'<span class="tag tag-inf">inferred</span> a reasonable read of public signals, or a page seen only through a search excerpt ({counts["inferred"]}); '
                  f'<span class="tag tag-folk">folklore</span> widely repeated, weakly sourced ({counts["folklore"]}). '
                  f'Every URL was verified on the access date shown. Where a page blocked automated fetching, the note says so.</p>')
-        body = intro + '<ol class="src wide">' + "".join(entry_html(s, i+1) for i, s in enumerate(order[:n_cited])) + "</ol>"
+        body = intro + '<h2 id="cited"><span class="n">7.1</span>Cited on the site</h2><ol class="src wide">' + "".join(entry_html(s, i+1) for i, s in enumerate(order[:n_cited])) + "</ol>"
         if n_cited < len(order):
-            body += (f'<h2 id="consulted">Consulted in the research, not cited on the site</h2>'
+            body += (f'<h2 id="consulted"><span class="n">7.2</span>Consulted in the research, not cited on the site</h2>'
                      f'<p data-cite="none">{len(order) - n_cited} sources verified during the research phase whose claims did not survive editing onto the site. Listed so the record is complete; numbered after the cited entries.</p>'
                      '<ol class="src wide" start="' + str(n_cited + 1) + '">' + "".join(entry_html(s, n_cited + i + 1) for i, s in enumerate(order[n_cited:])) + "</ol>")
         render(name, section, h1, dek, desc, body, idx, set())
@@ -179,6 +201,7 @@ for idx, (name, section, h1, dek, desc) in enumerate(PAGES):
     content = CITE.sub(sub, frags[name])
     content = collapse_sups(content)
     content = number_sections(content, idx + 1)
+    content = smart_quotes(content)
     render(name, section, h1, dek, desc, content, idx, cited)
 
 print(f"sources numbered: {len(order)}")

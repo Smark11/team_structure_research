@@ -18,7 +18,7 @@ source_ids = set(re.findall(r'<li[^>]*\bid="(s-\d+)"', src_html))
 
 cite_re = re.compile(r'<sup class="c">(.*?)</sup>', re.S)
 href_re = re.compile(r'href="sources\.html#(s-\d+)"')
-p_re = re.compile(r'<p\b([^>]*)>(.*?)</p>', re.S)
+p_re = re.compile(r'<(?:p|li)\b([^>]*)>(.*?)</(?:p|li)>', re.S)
 main_re = re.compile(r'<main\b.*?</main>', re.S)
 
 bad_refs, cited, misses = [], set(), []
@@ -36,6 +36,9 @@ for page in pages:
     body = re.sub(r'<(figure|nav|aside|table|details class="drill">\s*<summary|summary)\b.*?</\1>', '', body, flags=re.S)
     body = re.sub(r'<div class="[^"]*\bjudgment\b[^"]*">.*?</div>', '', body, flags=re.S)
     body = re.sub(r'<div class="fb">.*?</div>', '', body, flags=re.S)
+    body = re.sub(r'<(ul|ol)[^>]*data-cite="none"[^>]*>.*?</\1>', '', body, flags=re.S)
+    body = re.sub(r'<(ul|ol) class="(?:toc|src|tag-key|phases|tripwires|rank|cases)[^"]*"[^>]*>.*?</\1>', '', body, flags=re.S)
+    body = re.sub(r'<(?:ol|ul) class="rank[^"]*">.*?</(?:ol|ul)>', '', body, flags=re.S)
     body = re.sub(r'<div class="page-head">.*?</div>\s*<div class="body">', '', body, flags=re.S)
     for pm in p_re.finditer(body):
         attrs, inner = pm.group(1), pm.group(2)

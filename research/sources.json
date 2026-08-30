@@ -10,7 +10,8 @@
   "url": "https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -23,7 +24,8 @@
   "url": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -36,7 +38,8 @@
   "url": "https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -49,7 +52,8 @@
   "url": "https://netflixtechblog.com/a-day-in-the-life-of-an-experimentation-and-causal-inference-scientist-netflix-388edfb77d21",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Undated; pre-Jan 2022 (referenced by C1-2)"
+  "note": "Undated; pre-Jan 2022 (referenced by C1-2)",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -62,7 +66,8 @@
   "url": "https://about.netflix.com/en/news/netflix-to-open-new-engineering-hub-in-poland",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -75,7 +80,8 @@
   "url": "https://about.netflix.com/en/news/netflix-celebrates-10-years-in-poland-and-supercharges-warsaw-presence-with-new-office",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -88,7 +94,8 @@
   "url": "https://ir.netflix.net/governance/Leadership-and-directors/default.aspx",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -101,7 +108,8 @@
   "url": "https://au.variety.com/2026/tv/news/netflix-elizabeth-stone-chief-product-and-technology-officer-32672",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -114,7 +122,8 @@
   "url": "https://www.siasat.com/revanth-reddy-to-launch-netflix-studios-office-in-hyderabad-on-mar-12-3425752/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -128,7 +137,8 @@
   "url": "https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "C3 cites the Crisp blog announcement post; the whitepaper PDF is used here"
+  "note": "C3 cites the Crisp blog announcement post; the whitepaper PDF is used here",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -141,7 +151,8 @@
   "url": "https://blog.crisp.se/2015/06/07/henrikkniberg/no-i-didnt-invent-the-spotify-model",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -154,7 +165,8 @@
   "url": "https://theagilerevolution.com/2016/07/06/episode-112-inside-spotify-with-anders-ivarsson/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -168,7 +180,8 @@
   "url": "https://www.jeremiahlee.com/posts/failed-squad-goals/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Second-hand for the Sunden quote"
+  "note": "Second-hand for the Sunden quote",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -181,7 +194,8 @@
   "url": "https://engineering.atspotify.com/2020/10/spotifys-new-experimentation-platform-part-1",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -194,7 +208,8 @@
   "url": "https://engineering.atspotify.com/2023/8/coming-soon-confidence-an-experimentation-platform-from-spotify",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -207,7 +222,8 @@
   "url": "https://engineering.atspotify.com/2024/4/data-platform-explained",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -220,7 +236,8 @@
   "url": "https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -233,7 +250,8 @@
   "url": "https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -246,7 +264,8 @@
   "url": "https://newsroom.spotify.com/2023-01-23/an-update-on-january-2023-organizational-changes/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -259,7 +278,8 @@
   "url": "https://newsroom.spotify.com/2023-12-04/an-update-on-december-2023-organizational-changes/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -272,7 +292,8 @@
   "url": "https://www.musicbusinessworldwide.com/spotify-opens-research-and-development-hub-in-london/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -285,7 +306,8 @@
   "url": "https://techcrunch.com/2014/03/06/spotify-acquires-the-echo-nest/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -298,7 +320,8 @@
   "url": "https://medium.com/spotify-insights/cross-disciplinary-insights-teams-how-we-integrate-data-scientists-and-user-researchers-at-spotify-cd8086285f0e",
   "accessed": "2026-08-29",
   "tag": "inferred",
-  "note": "Direct fetch blocked (403); content seen only via search-index excerpt"
+  "note": "Direct fetch blocked (403); content seen only via search-index excerpt",
+  "qualifier": "index only"
  },
  {
   "keys": [
@@ -311,7 +334,8 @@
   "url": "https://research.google.com/pubs/archive/36500.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -324,7 +348,8 @@
   "url": "https://blog.google/technology/ai/april-ai-update/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -337,7 +362,8 @@
   "url": "https://blog.google/around-the-globe/google-europe/zurich-expanding-our-european-tech-hub/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -350,7 +376,8 @@
   "url": "https://www.greaterzuricharea.com/en/news/google-opens-innovation-center-zurich",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -363,7 +390,8 @@
   "url": "https://www.businessofgcc.com/gcc-data/companies/google-llc-alphabet-inc-india",
   "accessed": "2026-08-29",
   "tag": "folklore",
-  "note": "Directory compiled from LinkedIn/Wikipedia"
+  "note": "Directory compiled from LinkedIn/Wikipedia",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -376,7 +404,8 @@
   "url": "https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -390,7 +419,8 @@
   "url": "https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Book; retail page verified only (C3 cites Goodreads)"
+  "note": "Book; retail page verified only (C3 cites Goodreads)",
+  "qualifier": "retail page only"
  },
  {
   "keys": [
@@ -403,7 +433,8 @@
   "url": "https://www.productleadership.io/p/the-myth-of-amazons-2-pizza-teams-d14f2b4d834f",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Secondary summary of Working Backwards"
+  "note": "Secondary summary of Working Backwards",
+  "qualifier": "secondary"
  },
  {
   "keys": [
@@ -416,7 +447,8 @@
   "url": "https://hbr.org/2017/09/the-surprising-power-of-online-experiments",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -429,7 +461,8 @@
   "url": "https://www.awa-digital.com/blog/truth-about-amazon-booking-experimentation-culture/",
   "accessed": "2026-08-29",
   "tag": "folklore",
-  "note": "Numbers uncited"
+  "note": "Numbers uncited",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -442,7 +475,8 @@
   "url": "https://www.allthingsdistributed.com/2020/01/aws-datalake.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -455,7 +489,8 @@
   "url": "https://gulfnews.com/business/amazon-opens-largest-campus-1.65925605",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -468,7 +503,8 @@
   "url": "https://amazon.jobs/en/jobs/3146219/principal-software-engineer-prime-video-studios-coretech",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Job posting"
+  "note": "Job posting",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -481,7 +517,8 @@
   "url": "https://www.outlookbusiness.com/corporate/exclusive-amazon-prime-video-rejigs-india-leadership-structure-as-top-job-remains-vacant-amid-battle-with-jiostar",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -494,7 +531,8 @@
   "url": "https://pedrodelgallego.github.io/blog/amazon/single-threaded-model/",
   "accessed": "2026-08-29",
   "tag": "inferred",
-  "note": "Practitioner summary"
+  "note": "Practitioner summary",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -507,7 +545,8 @@
   "url": "https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-announces-strategic-reorganization-of-its-media-and-entertainment-businesses/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -520,7 +559,8 @@
   "url": "https://thewaltdisneycompany.com/press-releases/walt-disney-company-announces-strategic-reorganization/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -533,7 +573,8 @@
   "url": "https://en.wikipedia.org/wiki/Disney_Media_and_Entertainment_Distribution",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary; used for dates — underlying press coverage paywalled"
+  "note": "Tertiary; used for dates — underlying press coverage paywalled",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -546,7 +587,8 @@
   "url": "https://variety.com/2024/tv/news/disney-espn-aaron-laberge-exit-penn-entertainment-1235978219/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -559,7 +601,8 @@
   "url": "https://thewaltdisneycompany.com/news/adam-smith-disney-chief-product-technology-officer-entertainment-espn/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -572,7 +615,8 @@
   "url": "https://variety.com/2024/digital/news/hulu-on-disney-plus-official-launch-bundle-1235952711/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -585,7 +629,8 @@
   "url": "https://techcrunch.com/2023/05/10/disney-and-hulu-content-combine-into-one-app-later-this-year/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -598,7 +643,8 @@
   "url": "https://variety.com/2025/digital/news/hulu-app-phased-out-disney-plus-fully-integrating-1236480450/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -611,7 +657,8 @@
   "url": "https://www.techrepublic.com/article/news-hulu-app-shutdown-disney-transition/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Second-hand (reporting on Business Insider)"
+  "note": "Second-hand (reporting on Business Insider)",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -624,7 +671,8 @@
   "url": "https://www.thewrap.com/disney-product-technology-layoffs/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -637,7 +685,8 @@
   "url": "https://thedesk.net/2026/04/disney-streaming-shake-up-arora-leaving/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Based on an internal memo; single outlet"
+  "note": "Based on an internal memo; single outlet",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -650,7 +699,8 @@
   "url": "https://medium.com/disney-streaming/disney-streaming-embraces-3-key-tenets-of-experimentation-b20bb34c7ad4",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Read via browser; blocks automated fetch"
+  "note": "Read via browser; blocks automated fetch",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -663,7 +713,8 @@
   "url": "https://www.databricks.com/blog/2020/12/14/learn-how-disney-built-their-streaming-data-analytics-platform-with-databricks-and-aws-to-improve-the-customer-experience.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Vendor"
+  "note": "Vendor",
+  "qualifier": "vendor"
  },
  {
   "keys": [
@@ -676,7 +727,8 @@
   "url": "https://www.snowflake.com/en/blog/how-disney-streaming-uses-the-data-cloud-for-data-governance-and-data-sharing/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Vendor"
+  "note": "Vendor",
+  "qualifier": "vendor"
  },
  {
   "keys": [
@@ -690,7 +742,8 @@
   "url": "https://en.wikipedia.org/wiki/Disney%2B_Hotstar",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -703,7 +756,8 @@
   "url": "https://newsletter.thesignal.co/p/hbo-disney-ipl-jio-viacom-hotstar-4c5a",
   "accessed": "2026-08-29",
   "tag": "inferred",
-  "note": "Single trade newsletter quoting an unnamed executive"
+  "note": "Single trade newsletter quoting an unnamed executive",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -716,7 +770,8 @@
   "url": "https://blog.bytebytego.com/p/how-disney-hotstar-now-jiohotstar",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Secondary; summarizes two JioHotstar Engineering Blog posts whose pages did not render"
+  "note": "Secondary; summarizes two JioHotstar Engineering Blog posts whose pages did not render",
+  "qualifier": "secondary"
  },
  {
   "keys": [
@@ -729,7 +784,8 @@
   "url": "https://techcrunch.com/2023/05/05/warner-bros-discovery-cto-and-cpo-explain-how-they-made-max-less-buggy/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -742,7 +798,8 @@
   "url": "https://techcrunch.com/2022/08/15/layofs-hbo-max-discovery/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -755,7 +812,8 @@
   "url": "https://variety.com/2024/tv/news/warner-bros-discovery-lays-off-1000-employees-finance-max-1236074169/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Browser capture; article body partially truncated"
+  "note": "Browser capture; article body partially truncated",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -768,7 +826,8 @@
   "url": "https://www.wbd.com/warner-bros-discovery-announces-olli-new-first-party-data-platform-powering-converged-audience-solutions",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -782,7 +841,8 @@
   "url": "https://careers.wbd.com/global/en/india-innovation-Hub",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Recruiting copy"
+  "note": "Recruiting copy",
+  "qualifier": "recruiting copy"
  },
  {
   "keys": [
@@ -795,7 +855,8 @@
   "url": "https://telanganatoday.com/warner-bros-discovery-to-set-up-development-centre-in-hyderabad",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -809,7 +870,8 @@
   "url": "https://telanganatoday.com/warner-bros-discoverys-hyderabad-capability-centre-inaugurated",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -822,7 +884,8 @@
   "url": "https://www.businessofgcc.com/gcc-data/companies/warner-bros-discovery-india-hyderabad",
   "accessed": "2026-08-29",
   "tag": "folklore",
-  "note": "Directory estimates; conflicts with C2-23/24 on founding date"
+  "note": "Directory estimates; conflicts with C2-23/24 on founding date",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -835,7 +898,8 @@
   "url": "https://www.wbd.com/news/warner-bros-discovery-separate-two-leading-media-companies",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -848,7 +912,8 @@
   "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -861,7 +926,8 @@
   "url": "https://aws.amazon.com/solutions/case-studies/peacock-case-study/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Vendor"
+  "note": "Vendor",
+  "qualifier": "vendor"
  },
  {
   "keys": [
@@ -874,7 +940,8 @@
   "url": "https://corporate.comcast.com/stories/peacock-cto-patrick-miceli-nfl-wildcard-game-olympics-future-of-streaming",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Corporate"
+  "note": "Corporate",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -887,7 +954,8 @@
   "url": "https://www.lightreading.com/video-broadcast/peacock-s-global-streaming-strategy-takes-flight-with-sky",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -900,7 +968,8 @@
   "url": "https://careers.sky.com/locations/leeds",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Recruiting copy; also https://careers.sky.com/locations/osterley Page undated recruiting copy; accessed 2026-08-29."
+  "note": "Recruiting copy; also https://careers.sky.com/locations/osterley Page undated recruiting copy; accessed 2026-08-29.",
+  "qualifier": "recruiting copy"
  },
  {
   "keys": [
@@ -913,7 +982,8 @@
   "url": "https://jobs.comcast.com/asia",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Recruiting copy Page undated recruiting copy; accessed 2026-08-29."
+  "note": "Recruiting copy Page undated recruiting copy; accessed 2026-08-29.",
+  "qualifier": "recruiting copy"
  },
  {
   "keys": [
@@ -926,7 +996,8 @@
   "url": "https://variety.com/2023/tv/news/nbcu-research-data-science-peacock-will-gonzalez-promotion-1235486146/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Includes Mark Lazarus's full memo"
+  "note": "Includes Mark Lazarus's full memo",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -939,7 +1010,8 @@
   "url": "https://www.wayup.com/i-j-NBCUniversal-448809240288921/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Job posting"
+  "note": "Job posting",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -952,7 +1024,8 @@
   "url": "https://www.showbizjobs.com/jobs/peacock-director-of-data-science-decision-science-in-new-york/jid-rezn47",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Job posting; closed Jul 2022"
+  "note": "Job posting; closed Jul 2022",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -965,7 +1038,8 @@
   "url": "https://together.nbcuni.com/insights/news/one-platform-hits-key-operational-milestones/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Corporate"
+  "note": "Corporate",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -978,7 +1052,8 @@
   "url": "https://www.forbes.com/sites/joecornell/2026/01/06/comcast-completes-spin-off-of-versant-media-group/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -991,7 +1066,8 @@
   "url": "https://thedesk.net/2025/09/comcast-sky-job-cuts-uk/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1004,7 +1080,8 @@
   "url": "https://en.wikipedia.org/wiki/Paramount%2B",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -1017,7 +1094,8 @@
   "url": "https://en.wikipedia.org/wiki/Pluto_TV",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -1030,7 +1108,8 @@
   "url": "https://en.wikipedia.org/wiki/Paramount_Streaming",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -1043,7 +1122,8 @@
   "url": "https://thedesk.net/2026/06/paramount-pluto-tv-drm-technical-stack-merger/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1056,7 +1136,8 @@
   "url": "https://thenextweb.com/news/paramount-streaming-tech-stack-pluto-tv-hbo-max",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "No named sources"
+  "note": "No named sources",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1069,7 +1150,8 @@
   "url": "https://www.ciodive.com/news/paramount-cto-steps-down/820515/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1082,7 +1164,8 @@
   "url": "https://www.informationweek.com/it-leadership/paramount-cto-on-shedding-legacy-systems-for-general-compute",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1095,7 +1178,8 @@
   "url": "https://variety.com/2024/tv/news/paramount-tv-streaming-distribution-layoffs-1236246417/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1108,7 +1192,8 @@
   "url": "https://www.cbsnews.com/news/paramount-layoffs-merger-skydance/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1121,7 +1206,8 @@
   "url": "https://www.prnewswire.com/news-releases/paramount-global-announces-worldwide-expansion-of-eyeq-301973757.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Corporate"
+  "note": "Corporate",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1134,7 +1220,8 @@
   "url": "https://en.wikipedia.org/wiki/Discovery%2B",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -1147,7 +1234,8 @@
   "url": "https://deadline.com/2023/10/paramount-streaming-restructure-pluto-1235582992/",
   "accessed": "2026-08-29",
   "tag": "inferred",
-  "note": "Headline and URL verified via search only; body paywalled"
+  "note": "Headline and URL verified via search only; body paywalled",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1160,7 +1248,8 @@
   "url": "https://jaygalbraith.com/wp-content/uploads/2024/03/StarModel.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Framework originally in Designing Complex Organizations (1973) and Organization Design (1977)"
+  "note": "Framework originally in Designing Complex Organizations (1973) and Organization Design (1977)",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1173,7 +1262,8 @@
   "url": "https://pubsonline.informs.org/doi/10.1287/inte.4.3.28",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Author PDF: https://jaygalbraith.com/wp-content/uploads/2024/03/infoprocess1974.pdf"
+  "note": "Author PDF: https://jaygalbraith.com/wp-content/uploads/2024/03/infoprocess1974.pdf",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1186,7 +1276,8 @@
   "url": "https://www.researchgate.net/publication/256924085_The_Multi-Dimensional_and_Reconfigurable_Organization",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Reconfigurable-organization concept first published 1997, revised 2002"
+  "note": "Reconfigurable-organization concept first published 1997, revised 2002",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1199,7 +1290,8 @@
   "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.26.3.322",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1212,7 +1304,8 @@
   "url": "https://hbr.org/1981/01/organization-design-fashion-or-fit",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1225,7 +1318,8 @@
   "url": "https://www.melconway.com/Home/pdf/committees.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1238,7 +1332,8 @@
   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0048733312001205",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "HBS Working Paper 08-039 (2008): https://www.hbs.edu/faculty/Pages/item.aspx?num=43260"
+  "note": "HBS Working Paper 08-039 (2008): https://www.hbs.edu/faculty/Pages/item.aspx?num=43260",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1251,7 +1346,8 @@
   "url": "https://dl.acm.org/doi/10.1145/1368088.1368160",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "MSR TR-2008-11: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf"
+  "note": "MSR TR-2008-11: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1264,7 +1360,8 @@
   "url": "https://cacm.acm.org/research/does-distributed-development-affect-software-quality/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1277,7 +1374,8 @@
   "url": "https://www.thoughtworks.com/en-us/radar/techniques/inverse-conway-maneuver",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "First listed Trial, July 2014"
+  "note": "First listed Trial, July 2014",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1290,7 +1388,8 @@
   "url": "https://herbsleb.org/web-pubs/pdfs/herbsleb-architectures-1999.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1303,7 +1402,8 @@
   "url": "https://dl.acm.org/doi/10.1145/1414004.1414008",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1317,7 +1417,8 @@
   "url": "https://itrevolution.com/product/team-topologies-second-edition/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "2nd ed. 2025 (ISBN 9781966280002); 1st ed. 2019 page: https://teamtopologies.com/book"
+  "note": "2nd ed. 2025 (ISBN 9781966280002); 1st ed. 2019 page: https://teamtopologies.com/book",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1330,7 +1431,8 @@
   "url": "https://teamtopologies.com/key-concepts",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1343,7 +1445,8 @@
   "url": "https://teamtopologies.com/key-concepts-content/what-is-a-thinnest-viable-platform-tvp",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1356,7 +1459,8 @@
   "url": "https://itrevolution.com/product/remote-team-interactions-workbook/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Also https://teamtopologies.com/workbook"
+  "note": "Also https://teamtopologies.com/workbook",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1369,7 +1473,8 @@
   "url": "https://www.nickols.us/graicunas.htm",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Via Nickols (2011) analysis; see also https://journals.aom.org/doi/10.5465/254987"
+  "note": "Via Nickols (2011) analysis; see also https://journals.aom.org/doi/10.5465/254987",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1382,7 +1487,8 @@
   "url": "https://en.wikipedia.org/wiki/Span_of_control",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Quoted via secondary sources (Nickols; Wikipedia \"Span of control\"); HBR article not fetched."
+  "note": "Quoted via secondary sources (Nickols; Wikipedia \"Span of control\"); HBR article not fetched.",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -1395,7 +1501,8 @@
   "url": "https://psychclassics.yorku.ca/Miller/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Its use as span-of-control advice is folklore"
+  "note": "Its use as span-of-control advice is folklore",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1408,7 +1515,8 @@
   "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/how-to-identify-the-right-spans-of-control-for-your-organization",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Article page; the /~/media PDF path times out for automated clients. Archetype ranges as cited: player/coach 3–5, coach 6–7, supervisor 8–10, facilitator 11–15, coordinator 15+."
+  "note": "Article page; the /~/media PDF path times out for automated clients. Archetype ranges as cited: player/coach 3–5, coach 6–7, supervisor 8–10, facilitator 11–15, coordinator 15+. The page's facilitator paragraph is mislabelled 'supervisor' (McKinsey typo); ranges read in a browser 2026-08-30.",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1421,7 +1529,8 @@
   "url": "https://rework.withgoogle.com/intl/en/guides/following-the-data-the-research-behind-great-managers",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1435,7 +1544,8 @@
   "url": "https://press.stripe.com/an-elegant-puzzle",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781732265189"
+  "note": "ISBN 9781732265189",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1448,7 +1558,8 @@
   "url": "https://lethain.com/sizing-engineering-teams/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1461,7 +1572,8 @@
   "url": "https://lethain.com/running-an-engineering-reorg/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1474,7 +1586,8 @@
   "url": "https://lethain.com/durably-excellent-teams/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1487,7 +1600,8 @@
   "url": "https://lethain.com/organizational-risk/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1500,7 +1614,8 @@
   "url": "https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1514,7 +1629,8 @@
   "url": "https://itrevolution.com/product/accelerate/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781942788331"
+  "note": "ISBN 9781942788331",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1527,7 +1643,8 @@
   "url": "https://dora.dev/capabilities/loosely-coupled-teams/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Cites State of DevOps 2017, 2021–2023"
+  "note": "Cites State of DevOps 2017, 2021–2023",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1540,7 +1657,8 @@
   "url": "https://dora.dev/research/2023/dora-report/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1553,7 +1671,8 @@
   "url": "https://martinfowler.com/articles/data-monolith-to-mesh.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1567,7 +1686,8 @@
   "url": "https://www.oreilly.com/library/view/data-mesh/9781492092384/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781492092391; C3 cites the Thoughtworks book page"
+  "note": "ISBN 9781492092391; C3 cites the Thoughtworks book page",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1580,7 +1700,8 @@
   "url": "https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1593,7 +1714,8 @@
   "url": "https://jennykwan.org/posts/data-mesh-foundation-part-1/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1607,7 +1729,8 @@
   "url": "https://benn.substack.com/p/disband-the-analytics-team",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "C4 cites the newsletter as a whole (https://benn.substack.com/) with this post as its example"
+  "note": "C4 cites the newsletter as a whole (https://benn.substack.com/) with this post as its example",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1620,7 +1743,8 @@
   "url": "https://locallyoptimistic.com/post/one-size-fits-none/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1633,7 +1757,8 @@
   "url": "https://locallyoptimistic.com/post/the-data-business-partnership/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1646,7 +1771,8 @@
   "url": "https://www.getdbt.com/blog/data-team-structure",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1659,7 +1785,8 @@
   "url": "https://roundup.getdbt.com/p/data-teams-embedded-or-centralized",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Author corrected in review (not Handy)."
+  "note": "Author corrected in review (not Handy).",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1672,7 +1799,8 @@
   "url": "https://mode.com/blog/centralizing-analytics-team-structure/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1686,7 +1814,8 @@
   "url": "https://dataproducts.substack.com/p/the-rise-of-data-contracts",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "C4 cites the newsletter as a whole (https://dataproducts.substack.com/) and also 'The Shift Left Manifesto – v2'"
+  "note": "C4 cites the newsletter as a whole (https://dataproducts.substack.com/) and also 'The Shift Left Manifesto – v2'",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1699,7 +1828,8 @@
   "url": "https://hbr.org/2017/05/whats-your-data-strategy",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1713,7 +1843,8 @@
   "url": "https://herbsleb.org/web-pubs/pdfs/Herbsleb-Empirical-2003.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "herbsleb.org PDF is a scanned image; abstract at DOI 10.1109/TSE.2003.1205177 confirms the 2.5x finding."
+  "note": "herbsleb.org PDF is a scanned image; abstract at DOI 10.1109/TSE.2003.1205177 confirms the 2.5x finding. A 2025 retrospective by the same authors (IEEE TSE 51(3), DOI 10.1109/TSE.2025.3533977) reflects on the paper's influence and does not re-test the multiplier.",
+  "qualifier": "abstract only"
  },
  {
   "keys": [
@@ -1726,7 +1857,8 @@
   "url": "https://dl.acm.org/doi/10.1207/S15327051HCI1523_4",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "PDF: https://ics.uci.edu/~corps/phaseii/OlsonOlson-DistanceMatters-HCIJ.pdf"
+  "note": "PDF: https://ics.uci.edu/~corps/phaseii/OlsonOlson-DistanceMatters-HCIJ.pdf",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1740,7 +1872,8 @@
   "url": "https://ieeexplore.ieee.org/document/914734/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "DOI 10.1109/52.914734; C5 verified metadata via Semantic Scholar only"
+  "note": "DOI 10.1109/52.914734; C5 verified metadata via Semantic Scholar only",
+  "qualifier": "metadata only"
  },
  {
   "keys": [
@@ -1753,7 +1886,8 @@
   "url": "https://dl.acm.org/doi/10.2753/MIS0742-1222270102",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1766,7 +1900,8 @@
   "url": "https://pubsonline.informs.org/doi/10.1287/orsc.14.6.615.24872",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1779,7 +1914,8 @@
   "url": "https://www.semanticscholar.org/paper/Differentiation-and-Integration-in-Complex-Lawrence-Lorsch/4ce571e2e5c5d6a5a67cb095e12749a292956572",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1792,7 +1928,8 @@
   "url": "https://amsacta.unibo.it/5737/1/ThompsonAnniversary.pdf",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Via a 2017 anniversary commentary volume (amsacta.unibo.it), not the 1967 text."
+  "note": "Via a 2017 anniversary commentary volume (amsacta.unibo.it), not the 1967 text.",
+  "qualifier": "via secondary"
  },
  {
   "keys": [
@@ -1805,7 +1942,8 @@
   "url": "https://netflixtechblog.com/part-1-a-survey-of-analytics-engineering-work-at-netflix-d761cfd551ee",
   "accessed": "2026-08-29",
   "tag": "inferred",
-  "note": "Existence verified; body returned HTTP 403 — cited at title level only"
+  "note": "Existence verified; body returned HTTP 403 — cited at title level only",
+  "qualifier": "blocked; title-level"
  },
  {
   "keys": [
@@ -1818,7 +1956,8 @@
   "url": "https://www.hachettebookgroup.com/titles/erin-meyer/the-culture-map/9781610392501/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781610392501"
+  "note": "ISBN 9781610392501",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1831,7 +1970,8 @@
   "url": "https://www.oreilly.com/library/view/the-engineering-executives/9781098149475/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781098149482"
+  "note": "ISBN 9781098149482",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1844,7 +1984,8 @@
   "url": "https://www.wiley.com/en-us/designing-organizations-strategy-structure-and-process-at-the-business-unit-and-enterprise-levels-3rd-edition-p-9781118409954",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781118409954"
+  "note": "ISBN 9781118409954",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1857,7 +1998,8 @@
   "url": "https://press.stripe.com/scaling-people",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781953953216"
+  "note": "ISBN 9781953953216",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1870,7 +2012,8 @@
   "url": "https://www.hachette.co.uk/titles/stephen-bungay/the-art-of-action/9781857885590/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781857885590; 10th-anniversary ed. 2022 (ISBN 9781529376968)"
+  "note": "ISBN 9781857885590; 10th-anniversary ed. 2022 (ISBN 9781529376968)",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1883,7 +2026,8 @@
   "url": "https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781108724265 DOI 10.1017/9781108653985."
+  "note": "ISBN 9781108724265 DOI 10.1017/9781108653985.",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1896,7 +2040,8 @@
   "url": "https://lethain.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1909,7 +2054,8 @@
   "url": "https://teamtopologies.com/news",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1922,7 +2068,8 @@
   "url": "https://newsletter.pragmaticengineer.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active 2026"
+  "note": "Active 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1935,7 +2082,8 @@
   "url": "https://www.elidedbranches.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active May 2026"
+  "note": "Active May 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1948,7 +2096,8 @@
   "url": "https://martinfowler.com/bliki/ConwaysLaw.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Updated October 20, 2022"
+  "note": "Updated October 20, 2022",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1961,7 +2110,8 @@
   "url": "https://netflixtechblog.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026; example post 'Data Projects: Managing Data Assets at Netflix Scale' (May 2026): https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e"
+  "note": "Active August 2026; example post 'Data Projects: Managing Data Assets at Netflix Scale' (May 2026): https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1974,7 +2124,8 @@
   "url": "https://roundup.getdbt.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -1987,7 +2138,8 @@
   "url": "https://charity.wtf/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active 2026; example post 'The Engineer/Manager Pendulum' (2017): https://charity.wtf/p/the-engineer-manager-pendulum"
+  "note": "Active 2026; example post 'The Engineer/Manager Pendulum' (2017): https://charity.wtf/p/the-engineer-manager-pendulum",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2000,7 +2152,8 @@
   "url": "https://engineering.atspotify.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2013,7 +2166,8 @@
   "url": "https://leaddev.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active 2025–2026"
+  "note": "Active 2025–2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2026,7 +2180,8 @@
   "url": "https://locallyoptimistic.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Last post August 18, 2025"
+  "note": "Last post August 18, 2025",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2039,7 +2194,8 @@
   "url": "https://experimentguide.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2052,7 +2208,8 @@
   "url": "https://www.penguinrandomhouse.com/books/72467/high-output-management-by-andrew-s-grove-former-chairman-and-ceo-of-intel/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9780679762881"
+  "note": "ISBN 9780679762881",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2065,7 +2222,8 @@
   "url": "https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781591847489"
+  "note": "ISBN 9781591847489",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2078,7 +2236,8 @@
   "url": "https://books.google.com/books/about/Structure_in_Fives.html?id=nR5HAAAAMAAJ",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9780138543495"
+  "note": "ISBN 9780138543495",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2091,7 +2250,8 @@
   "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "ISBN 9781098108304"
+  "note": "ISBN 9781098108304",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2104,7 +2264,8 @@
   "url": "https://getdx.com/podcast/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Hosts Abi Noda, Brian Houck, Justin Reock; active 2026"
+  "note": "Hosts Abi Noda, Brian Houck, Justin Reock; active 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2117,7 +2278,8 @@
   "url": "https://getdx.com/podcast/designing-the-ai-native-engineering-organization/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2130,7 +2292,8 @@
   "url": "https://getdx.com/podcast/adopting-the-product-operating-model-at-priceline/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2143,7 +2306,8 @@
   "url": "https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2156,7 +2320,8 @@
   "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2169,7 +2334,8 @@
   "url": "https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2182,7 +2348,8 @@
   "url": "https://roundup.getdbt.com/s/the-analytics-engineering-podcast",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2195,7 +2362,8 @@
   "url": "https://roundup.getdbt.com/p/the-scarce-resource-is-consensus",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2208,7 +2376,8 @@
   "url": "https://roundup.getdbt.com/p/data-lessons-from-inside-meta-shridhar",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2221,7 +2390,8 @@
   "url": "https://www.lennysnewsletter.com/podcast",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2234,7 +2404,8 @@
   "url": "https://www.lennysnewsletter.com/p/lessons-from-scaling-stripe-tactics",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2247,7 +2418,8 @@
   "url": "https://www.lennysnewsletter.com/p/the-engineering-mindset-will-larson",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2260,7 +2432,8 @@
   "url": "https://www.lennysnewsletter.com/p/engineering-leadership-camille-fournier",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2273,7 +2446,8 @@
   "url": "https://www.thoughtworks.com/insights/podcasts/technology-podcasts/organizational-design-team-topologies-ai",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2286,7 +2460,8 @@
   "url": "https://se-radio.net/2024/12/se-radio-646-matthew-skelton-on-team-topologies/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Verified via https://matthewskelton.com/all-videos-and-podcast-episodes/software-engineering-radio-646-matthew-skelton-on-team-topologies"
+  "note": "Verified via https://matthewskelton.com/all-videos-and-podcast-episodes/software-engineering-radio-646-matthew-skelton-on-team-topologies",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2299,7 +2474,8 @@
   "url": "https://www.dataengineeringpodcast.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026 (E515)"
+  "note": "Active August 2026 (E515)",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2312,7 +2488,8 @@
   "url": "https://www.dataengineeringpodcast.com/episodepage/building-and-managing-data-teams-and-data-platforms-in-large-organizations-with-ashish-mrig",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2325,7 +2502,8 @@
   "url": "https://www.dataengineeringpodcast.com/episodepage/revisiting-the-technical-and-social-benefits-of-the-data-mesh",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2338,7 +2516,8 @@
   "url": "https://linearb.io/dev-interrupted",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active 2025–2026"
+  "note": "Active 2025–2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2351,7 +2530,8 @@
   "url": "https://linearb.io/dev-interrupted/podcast/team-topologies-organizing-business-technology-teams",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2364,7 +2544,8 @@
   "url": "https://linearb.io/dev-interrupted/podcast/the-end-of-specialization-how-ai-shapes-modern-dev-teams",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2377,7 +2558,8 @@
   "url": "https://softwareengineeringdaily.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Active August 2026"
+  "note": "Active August 2026",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2390,7 +2572,8 @@
   "url": "https://softwareengineeringdaily.com/podcasts/sleuth-and-the-future-of-engineering-teams-with-dylan-etkin/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2403,7 +2586,8 @@
   "url": "https://datastackshow.com/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "2026 episodes are re-airs"
+  "note": "2026 episodes are re-airs",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2416,7 +2600,8 @@
   "url": "https://datastackshow.com/podcast/a-decade-of-change-in-the-data-space-with-benn-stancil-of-mode/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2429,7 +2614,8 @@
   "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2442,7 +2628,8 @@
   "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-report-the-5-year-journey-report/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2455,7 +2642,8 @@
   "url": "https://zinnov.com/centers-of-excellence/5-shifts-defining-indias-global-capability-centers-gccs-story-in-2025-blog/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2468,7 +2656,8 @@
   "url": "https://www.ey.com/en_in/newsroom/2025/11/58-percent-gccs-in-india-investing-in-agentic-ai-two-third-creating-dedicated-innovation-teams-to-globalize-ideas-ey-gcc-pulse-survey-2025",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2481,7 +2670,8 @@
   "url": "https://www.storyboard18.com/how-it-works/81-of-gccs-upskill-talent-in-genai-niche-hiring-at-63-cuts-attrition-to-9-ey-84664.htm",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": "secondary"
  },
  {
   "keys": [
@@ -2494,7 +2684,8 @@
   "url": "https://www.varindia.com/news/India%E2%80%99s-GCC-Expansion-Faces-Leadership-Talent-Crunch",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Secondary; cites EY GCC Pulse 2025"
+  "note": "Secondary; cites EY GCC Pulse 2025",
+  "qualifier": "secondary"
  },
  {
   "keys": [
@@ -2507,7 +2698,8 @@
   "url": "https://zinnov.com/global-talent/high-performer-attrition-gcc-india-2026-zinnov-blog/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2520,7 +2712,8 @@
   "url": "https://zinnov.com/salary-increase-attrition-hiring-trends-an-india-gcc-view-2026/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Summary page only"
+  "note": "Summary page only",
+  "qualifier": "summary only"
  },
  {
   "keys": [
@@ -2533,7 +2726,8 @@
   "url": "https://zinnov.com/centers-of-excellence/what-no-one-tells-you-about-global-capability-center-gcc-talent-blog/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2546,7 +2740,8 @@
   "url": "https://www.storyboard18.com/how-it-works/it-firms-report-stable-attrition-in-q2-paving-way-for-campus-hiring-surge-in-fy-25-46769.htm",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2559,7 +2754,8 @@
   "url": "https://www.hrkatha.com/special/editorial/indias-it-services-industry-built-the-talent-its-biggest-clients-are-now-hiring-it-directly-through-gccs/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Secondary; cites EY/Xpheno"
+  "note": "Secondary; cites EY/Xpheno",
+  "qualifier": "secondary"
  },
  {
   "keys": [
@@ -2572,7 +2768,8 @@
   "url": "https://www.forrester.com/report/shattering-the-offshore-captive-center-myth/RES42059",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Fetched summary only"
+  "note": "Fetched summary only",
+  "qualifier": "summary only"
  },
  {
   "keys": [
@@ -2585,7 +2782,8 @@
   "url": "https://www.cio.com/article/278296/outsourcing-outsourcing-the-demise-of-the-offshore-captive-center.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2598,7 +2796,8 @@
   "url": "https://www.cio.com/article/282074/outsourcing-the-captive-model-for-offshoring-is-thriving-says-research-firm.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Everest Group data"
+  "note": "Everest Group data",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2611,7 +2810,8 @@
   "url": "https://www.cio.com/article/1309580/captive-centers-are-back-is-diy-offshoring-right-for-you.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2624,7 +2824,8 @@
   "url": "https://www.cio.com/article/282016/outsourcing-4-new-offshore-captive-center-models.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2637,7 +2838,8 @@
   "url": "https://www.business-standard.com/article/technology/tcs-acquires-citigroup-global-services-for-505-million-108100901055_1.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Verified via search index only, page not fetched"
+  "note": "Verified via search index only, page not fetched",
+  "qualifier": "index only"
  },
  {
   "keys": [
@@ -2650,7 +2852,8 @@
   "url": "https://pubsonline.informs.org/doi/10.1287/isre.1090.0239",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Metadata verified via Semantic Scholar, findings via search summary"
+  "note": "Metadata verified via Semantic Scholar, findings via search summary",
+  "qualifier": "metadata only"
  },
  {
   "keys": [
@@ -2663,7 +2866,8 @@
   "url": "https://dl.acm.org/doi/10.1145/1287624.1287643",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Metadata verified via Semantic Scholar, findings via search summary"
+  "note": "Metadata verified via Semantic Scholar, findings via search summary",
+  "qualifier": "metadata only"
  },
  {
   "keys": [
@@ -2676,7 +2880,8 @@
   "url": "https://gcc-pulse.com/gcc-ecosystem/retail-e-commerce/target-india-journey/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Trade-press interview"
+  "note": "Trade-press interview",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2689,7 +2894,8 @@
   "url": "https://ansr.com/case-study/retail/stores-supermarket/target/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Vendor marketing"
+  "note": "Vendor marketing",
+  "qualifier": "vendor"
  },
  {
   "keys": [
@@ -2702,7 +2908,8 @@
   "url": "https://www.prnewswire.com/in/news-releases/lowes-announces-the-opening-of-global-innovation-center-in-bangalore-india-291514481.html",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2715,7 +2922,8 @@
   "url": "https://lowes.co.in/about/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2728,7 +2936,8 @@
   "url": "https://www.jpmorganchase.com/newsroom/press-releases/2023/jpmorgan-chase-opens-new-offices-in-mumbai-and-bengaluru",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2741,7 +2950,8 @@
   "url": "https://www.outlookbusiness.com/corporate/jpmorgan-to-add-1000-tech-roles-at-india-gcc-despite-ai-driven-workforce-gains",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2754,7 +2964,8 @@
   "url": "https://corporate.walmart.com/about/international/markets/india",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2767,7 +2978,8 @@
   "url": "https://corporate.walmart.com/news/2022/03/15/walmart-global-tech-accelerates-expansion-with-plans-to-hire-thousands-of-technologists-and-add-new-locations",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2780,7 +2992,8 @@
   "url": "https://en.wikipedia.org/wiki/Flipkart",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": "Tertiary"
+  "note": "Tertiary",
+  "qualifier": "tertiary"
  },
  {
   "keys": [
@@ -2793,7 +3006,8 @@
   "url": "https://jobs.netflix.com/locations/mumbai-india",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2806,7 +3020,8 @@
   "url": "https://blog.google/intl/en-in/company-news/welcome-to-ananta-google-indias-new-campus-in-bengaluru/",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
  },
  {
   "keys": [
@@ -2819,6 +3034,21 @@
   "url": "https://www.aboutamazon.in/workplace/corporate-offices",
   "accessed": "2026-08-29",
   "tag": "documented",
-  "note": ""
+  "note": "",
+  "qualifier": ""
+ },
+ {
+  "keys": [
+   "C2-51"
+  ],
+  "author": "Wikipedia",
+  "title": "Warner Bros. Discovery",
+  "venue": "Wikipedia",
+  "year": "2026",
+  "url": "https://en.wikipedia.org/wiki/Warner_Bros._Discovery",
+  "accessed": "2026-08-30",
+  "tag": "documented",
+  "note": "Tertiary; added in review cycle 2 for the April 2022 merger close and the August 2022 single-service announcement (press-release-backed dates).",
+  "qualifier": "tertiary"
  }
 ]
