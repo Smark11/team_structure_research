@@ -86,11 +86,16 @@ def entry_html(s, n):
     note = html.escape(s.get("note", "") or "")
     meta = " · ".join(x for x in [who, venue, year] if x)
     q = qualifier(s)
-    return (f'<li id="s-{n}"><span class="id">{n}</span><div>'
-            f'<span class="t"><a href="{url}">{title}</a></span><br><span class="who">{meta}</span>'
-            f'{(" <span class=&quot;who&quot;>— " + note + "</span>") if note else ""}'
-            f'<a class="url" href="{url}">{url}</a><span class="acc">accessed {acc}</span></div>'
-            f'<span class="tg"><span class="tag {TAGCLS[tag]}">{tag}</span>{("<span class=&quot;q&quot;>" + q + "</span>") if q else ""}</span></li>')
+    if q and note and note.lower().lstrip('— ').startswith(q.split(';')[0].lower()):
+        note = note[len(q.split(';')[0]):].lstrip(';,. —–').strip() or ""
+        note = note[0].upper() + note[1:] if note else ""
+    note_html = (' <span class="who">— ' + note + '</span>') if note else ''
+    q_html = ('<span class="q">' + q + '</span>') if q else ''
+    return ('<li id="s-' + str(n) + '"><span class="id">' + str(n) + '</span><div>'
+            '<span class="t"><a href="' + url + '">' + title + '</a></span><br><span class="who">' + meta + '</span>'
+            + note_html +
+            '<a class="url" href="' + url + '">' + url + '</a><span class="acc">accessed ' + acc + '</span></div>'
+            '<span class="tg"><span class="tag ' + TAGCLS[tag] + '">' + tag + '</span>' + q_html + '</span></li>')
 def preview_html(s, n):
     who = html.escape(s.get("author", "")); title = html.escape(s.get("title", ""))
     venue = html.escape(s.get("venue", "")); year = html.escape(str(s.get("year", "")))
@@ -117,6 +122,7 @@ def collapse_sups(html_text):
     # chip order: period, citation run, space, chip  (D2-7)
     out = re.sub(r'\s*(<span class="tag tag-[a-z]+">[^<]*</span>)([.,;:])(<sup class="c">.*?</sup>)?', lambda m: m.group(2) + (m.group(3) or '') + ' ' + m.group(1), out)
     out = re.sub(r'(<sup class="c">.*?</sup>)\s*(<span class="tag tag-[a-z]+">[^<]*</span>)', r'\1 \2', out)
+    out = re.sub(r'(<span class="tag tag-[a-z]+">[^<]*</span>)\s*(<sup class="c">(?:<a[^>]*>[^<]*</a>)+</sup>)', r'\2 \1', out)
     return out
 
 def smart_quotes(html_text):
