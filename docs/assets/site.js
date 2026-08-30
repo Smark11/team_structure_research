@@ -31,8 +31,10 @@
       pop = document.createElement('div');
       pop.className = 'cite-pop';
       pop.setAttribute('role', 'tooltip');
+      pop.id = 'cite-pop';
       document.body.appendChild(pop);
     }
+    a.setAttribute('aria-describedby', 'cite-pop');
     pop.innerHTML = text;
     var r = a.getBoundingClientRect();
     var left = Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - 360);
@@ -40,7 +42,10 @@
     pop.style.top = (r.bottom + window.scrollY + 8) + 'px';
     pop.hidden = false;
   }
-  function hidePop() { if (pop) pop.hidden = true; }
+  function hidePop() {
+    if (pop) pop.hidden = true;
+    document.querySelectorAll('sup.c a[aria-describedby]').forEach(function (el) { el.removeAttribute('aria-describedby'); });
+  }
   document.querySelectorAll('sup.c a').forEach(function (a) {
     a.addEventListener('mouseenter', function () { showPop(a); });
     a.addEventListener('mouseleave', hidePop);

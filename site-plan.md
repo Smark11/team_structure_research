@@ -61,10 +61,20 @@ Evidence tags are encoded by **shape + text, not colour alone**: `[documented]` 
   6. **Framework disagreement map** (foundations): frameworks as nodes, tensions as edges.
 - Motion: none beyond a 150ms hover/focus transition and the progress hairline. `prefers-reduced-motion` respected. The page is a document; it should not perform.
 
+### Built system — notes after review cycle 1
+- The marginalia rail is implemented as float-into-padding (Tufte pattern), not a grid column: rails never take a row of their own; `.wide` elements clear and span the reading column plus rail. Below 1100px the rail folds inline.
+- One right edge: page, header, footer and pager are capped at 72rem; wide figures and tables end where the rail ends.
+- Evidence chips inside running prose are quiet glyph-first annotations (● documented, ◐ inferred, ○ folklore, ◆ judgment) in ink-3/ink-2; full chips remain in tables, the tag key and the Sources list. `documented` stays visible — the brief requires a tag on every case-study claim, and an unmarked default would be indistinguishable from an untagged claim.
+- Citation runs are collapsed by the build into sorted, deduplicated ranges ("10–15"), set in ink-2 so the blue keeps meaning "US" in figures.
+- Every h2 carries a running number injected by the build, and the page TOC is generated from the same list.
+- The two hues mean site ownership only, in every figure; categories and valences are encoded with ink weight and marks (solid / open / dashed / hatched). Dense figures get a scroll wrapper (min-width 720px) and a `<details>` text alternative; simple ones are drawn at ≤ 720 viewBox with ≥ 12px text.
+- One italic Newsreader pull quote per page where a line earns it; key numbers set large in the rail.
+- Sources page: entries carry a visible qualifier (tertiary / vendor / secondary / index only / blocked; title-level) derived from the verification note; sources verified in research but no longer cited on the site are listed separately.
+
 ### Accessibility & performance
 - Semantic landmarks (`header/nav/main/aside/footer`), one `h1` per page, skip link, visible focus ring (2px, `--us`), all diagrams with text alternatives, contrast ≥ 4.5:1 for text in both themes (checked).
 - No JS required to read anything. JS used only for: theme respects OS (CSS-only), progress hairline, citation hover previews (progressive enhancement), and the drill-down `<details>` elements which work without JS.
-- Budget: < 120KB HTML+CSS per page excluding fonts; three font families, ≤ 6 weight/style files, `display=swap`. No frameworks, no images except inline SVG.
+- Budget: < 120KB HTML+CSS per page excluding fonts; three font families, ≤ 6 weight/style files, `display=swap`. No frameworks, no images except inline SVG. Measured after cycle 1: 58–122KB HTML per page (case-studies 122KB and sources 140KB exceed the budget and are justified — eight cases and 216 entries — gzipping under 32KB); CSS 19KB; JS 2.5KB; four font files ≈ 251KB on a Latin page, preloaded.
 
 ## 4. Build approach (no build step for serving)
 Hand-authored HTML per page sharing one `docs/assets/site.css` and `docs/assets/site.js`. A small authoring-time script (`tools/check-citations.py`, Python stdlib) validates citations; it is not needed to serve the site. Sources master list authored once in `docs/sources.html`; research reports' local keys (`[C1-3]` etc.) are mapped to global numbers in `research/source-map.md`.
