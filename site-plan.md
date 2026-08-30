@@ -69,5 +69,16 @@ Evidence tags are encoded by **shape + text, not colour alone**: `[documented]` 
 ## 4. Build approach (no build step for serving)
 Hand-authored HTML per page sharing one `docs/assets/site.css` and `docs/assets/site.js`. A small authoring-time script (`tools/check-citations.py`, Python stdlib) validates citations; it is not needed to serve the site. Sources master list authored once in `docs/sources.html`; research reports' local keys (`[C1-3]` etc.) are mapped to global numbers in `research/source-map.md`.
 
-## 5. Content mapping (filled after Phase 1 research)
-_To be completed._
+## 5. Content mapping
+
+| Page | Primary source | Structure | Figures |
+|---|---|---|---|
+| 1 Recommendation (`index.html`) | `research/recommendation.md` | The one-sentence answer as a typographic block; a 2-minute summary (why not the alternatives, the shape, the one domain); drill-downs for the full defense; phases list with gates; tripwires; steelmen as drill-downs; "what remains uncertain." | Fig 1.1 four charter models as the same org coloured by ownership; Fig 1.2 phased path; Fig 1.3 decision tree |
+| 2 Case Studies (`case-studies.html`) | `research/c1-*.md`, `research/c2-*.md` | Cross-case comparison table first (reporting line, platform, experimentation, governance, remote-site charter); eight company sections each with structure → how it changed → where experimentation sits → global sites → attributable outcomes; evidence tags visible on every claim; "what nobody publishes." | Fig 2.1 reorg timelines (8 rows); Fig 2.2 remote-site charter map (capability vs domain) |
+| 3 Foundations (`foundations.html`) | `research/c3-*.md` | The nine bodies of work, each reduced to the claims that matter here; the four disagreements; the 15 durable principles as a numbered reference list; the span-of-control folklore trace. | Fig 3.1 framework disagreement map; Fig 3.2 interdependence → coordination mechanism → distance tolerance |
+| 4 Applying It Here (`applying-it.html`) | `research/recommendation.md` §Baseline, §3; `synthesis.md` | The assumed baseline (flagged); each domain scored against the three tests (US decision-makers per change, output standardizability, warehouse separability); the resulting ownership table; what the US stops doing; reporting lines; the team-size/span arithmetic. | Fig 4.1 domain scoring matrix; Fig 4.2 target org topology (hub-and-spoke, two hues); Fig 4.3 time-zone overlap band |
+| 5 Charter Evidence (`charter-evidence.html`) | `research/c5-*.md` | Base rates; GCC reference cases (Target, Walmart, Lowe's, JPMorgan, Hotstar, WBD, Netflix's absence); conversion failure modes; conditions for ownership; talent constraints; the evidence-by-model table. | Fig 5.1 GCC maturity distribution; Fig 5.2 the Herbsleb 2.5x |
+| 6 Learning Plan (`learning-plan.html`) | `research/c4-*.md` | Ranked books (10) with "read when"; blogs (12); podcasts (9) with verified episodes; 12-month calendar table; dropped/could-not-verify list. | none |
+| 7 Sources (`sources.html`) | `research/sources.json` | Generated: numbered in order of first citation across pages 1→6; each entry: author, title, venue, year, URL, access date, evidence tag; anchor `#s-N`. | none |
+
+Build script: `tools/build.py` wraps `tools/content/<page>.html` fragments in `tools/page-template.html`, assigns global source numbers in order of first citation, rewrites `sources.html#C1-3` → `sources.html#s-N` with visible number, generates `docs/sources.html`, embeds a `<template id="src-index">` for citation hover previews, then runs `tools/check-citations.py`.

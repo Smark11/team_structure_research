@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{PAGE_TITLE}} — The Second Site</title>
+<meta name="description" content="{{PAGE_DESC}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Archivo:wght@400;600&family=JetBrains+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">The Second Site <em>— an org-design decision record</em></a>
+    <nav class="site-nav" aria-label="Sections">
+      <ol>
+        <li><a href="index.html"{{CUR_1}}><span class="n">1</span>Recommendation</a></li>
+        <li><a href="case-studies.html"{{CUR_2}}><span class="n">2</span>Case Studies</a></li>
+        <li><a href="foundations.html"{{CUR_3}}><span class="n">3</span>Foundations</a></li>
+        <li><a href="applying-it.html"{{CUR_4}}><span class="n">4</span>Applying It</a></li>
+        <li><a href="charter-evidence.html"{{CUR_5}}><span class="n">5</span>Charter Evidence</a></li>
+        <li><a href="learning-plan.html"{{CUR_6}}><span class="n">6</span>Learning Plan</a></li>
+        <li><a href="sources.html"{{CUR_7}}><span class="n">7</span>Sources</a></li>
+      </ol>
+    </nav>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<main id="main" class="page">
+  <div class="page-head">
+    <p class="eyebrow"><span class="num">{{NUM}}</span> {{SECTION_NAME}}</p>
+    <h1>{{H1}}</h1>
+    <p class="dek">{{DEK}}</p>
+    <p class="meta"><span>{{READ_TIME}}</span><span>Sources accessed 2026-08-29</span></p>
+  </div>
+
+  <div class="body">
+    {{CONTENT}}
+  </div>
+
+  <nav class="pager" aria-label="Previous and next section">
+    <a href="{{PREV_HREF}}"><span class="label">Previous</span><span class="t">{{PREV_TITLE}}</span></a>
+    <a class="next" href="{{NEXT_HREF}}"><span class="label">Next</span><span class="t">{{NEXT_TITLE}}</span></a>
+  </nav>
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <span>The Second Site. A private decision record on the charter of a second engineering site for a ~140-person data organization at a large streaming/media company. Identifying details are generalized.</span>
+    <span>Every factual claim carries a numbered citation to the <a href="sources.html">Sources</a> page; judgment calls are labeled. Built as static HTML, no framework.</span>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
