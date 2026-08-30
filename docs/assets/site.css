@@ -158,6 +158,8 @@ main.page { overflow-x: clip; }
 .rail .bars { display: grid; gap: .35rem; margin: .5rem 0 .6rem; }
 .rail .bars span { display: block; height: 10px; background: var(--ink); }
 .rail .bars span + span { background: var(--ink-2); }
+.rail .bars .b1 { width: 40%; }
+.rail .bars .b2 { width: 100%; }
 @media (max-width: 1100px) {
   .body { padding-right: 0; }
   .body > .rail { float: none; width: auto; max-width: var(--measure); border-left: 0; border-top: 1px solid var(--rule); padding: .75rem 0 0; margin: .5rem 0 1.5rem; }
