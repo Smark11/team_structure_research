@@ -1,0 +1,217 @@
+sources_html_no	sources_json_index	http_status(HEAD[/GET])	url	verdict
+1	53	200	https://en.wikipedia.org/wiki/Disney%2B_Hotstar	OK; Wikipedia (tertiary)
+2	215	200	https://blog.google/intl/en-in/company-news/welcome-to-ananta-google-indias-new-campus-in-bengaluru/	OK
+3	54	200	https://newsletter.thesignal.co/p/hbo-disney-ipl-jio-viacom-hotstar-4c5a	OK
+4	210	200	https://www.outlookbusiness.com/corporate/jpmorgan-to-add-1000-tech-roles-at-india-gcc-despite-ai-driven-workforce-gains	OK
+5	200	200	https://www.cio.com/article/1309580/captive-centers-are-back-is-diy-offshoring-right-for-you.html	OK
+6	76	200	https://thedesk.net/2025/09/comcast-sky-job-cuts-uk/	OK
+7	186	200	https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/	OK
+8	6	403/GET:200	https://about.netflix.com/en/news/netflix-celebrates-10-years-in-poland-and-supercharges-warsaw-presence-with-new-office	OK
+9	36	200	https://amazon.jobs/en/jobs/3146219/principal-software-engineer-prime-video-studios-coretech	OK
+10	60	200	https://careers.wbd.com/global/en/india-innovation-Hub	OK
+11	67	200	https://corporate.comcast.com/stories/peacock-cto-patrick-miceli-nfl-wildcard-game-olympics-future-of-streaming	OK
+12	22	200	https://techcrunch.com/2014/03/06/spotify-acquires-the-echo-nest/	OK
+13	97	403/GET:403	https://cacm.acm.org/research/does-distributed-development-affect-software-quality/	BOT-BLOCKED (not a broken link; opens in a browser)
+14	131	200	https://herbsleb.org/web-pubs/pdfs/Herbsleb-Empirical-2003.pdf	OK
+15	205	200	https://gcc-pulse.com/gcc-ecosystem/retail-e-commerce/target-india-journey/	OK
+16	133	202	https://ieeexplore.ieee.org/document/914734/	OK
+17	92	403/GET:403	https://pubsonline.informs.org/doi/10.1287/mnsc.26.3.322	BOT-BLOCKED (not a broken link; opens in a browser)
+18	130	200	https://hbr.org/2017/05/whats-your-data-strategy	OK
+19	24	200	https://research.google.com/pubs/archive/36500.pdf	OK
+20	17	200	https://engineering.atspotify.com/2025/9/spotifys-experiments-with-learning-framework	OK
+21	2	403/GET:403	https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985	BOT-BLOCKED (not a broken link; opens in a browser)
+22	50	403/GET:403	https://medium.com/disney-streaming/disney-streaming-embraces-3-key-tenets-of-experimentation-b20bb34c7ad4	BOT-BLOCKED (not a broken link; opens in a browser)
+23	96	403/GET:403	https://dl.acm.org/doi/10.1145/1368088.1368160	BOT-BLOCKED (not a broken link; opens in a browser)
+24	31	200	https://www.productleadership.io/p/the-myth-of-amazons-2-pizza-teams-d14f2b4d834f	OK
+25	203	403/GET:403	https://pubsonline.informs.org/doi/10.1287/isre.1090.0239	BOT-BLOCKED (not a broken link; opens in a browser)
+26	208	200	https://lowes.co.in/about/	OK
+27	198	200	https://www.cio.com/article/278296/outsourcing-outsourcing-the-demise-of-the-offshore-captive-center.html	OK
+28	103	200	https://teamtopologies.com/key-concepts-content/what-is-a-thinnest-viable-platform-tvp	OK
+29	191	200	https://www.varindia.com/news/India%E2%80%99s-GCC-Expansion-Faces-Leadership-Talent-Crunch	OK
+30	197	200	https://www.forrester.com/report/shattering-the-offshore-captive-center-myth/RES42059	OK
+31	207	200	https://www.prnewswire.com/in/news-releases/lowes-announces-the-opening-of-global-innovation-center-in-bangalore-india-291514481.html	OK
+32	89	200	https://jaygalbraith.com/wp-content/uploads/2024/03/StarModel.pdf	OK
+33	194	200	https://zinnov.com/centers-of-excellence/what-no-one-tells-you-about-global-capability-center-gcc-talent-blog/	OK
+34	101	200	https://itrevolution.com/product/team-topologies-second-edition/	OK
+35	49	200	https://thedesk.net/2026/04/disney-streaming-shake-up-arora-leaving/	OK
+36	137	200	https://amsacta.unibo.it/5737/1/ThompsonAnniversary.pdf	OK; NOTE: URL is a 2017 anniversary commentary volume on Thompson, not the 1967 book itself
+37	116	200	https://itrevolution.com/product/accelerate/	OK
+38	188	200	https://zinnov.com/centers-of-excellence/5-shifts-defining-indias-global-capability-centers-gccs-story-in-2025-blog/	OK
+39	104	200	https://itrevolution.com/product/remote-team-interactions-workbook/	OK
+40	196	200	https://www.hrkatha.com/special/editorial/indias-it-services-industry-built-the-talent-its-biggest-clients-are-now-hiring-it-directly-through-gccs/	OK
+41	111	200	https://lethain.com/sizing-engineering-teams/	OK
+42	71	200	https://variety.com/2023/tv/news/nbcu-research-data-science-peacock-will-gonzalez-promotion-1235486146/	OK
+43	108	000/GET:000	https://www.mckinsey.com/~/media/mckinsey/business%20functions/organization/our%20insights/how%20to%20identify%20the%20right%20spans%20of%20control%20for%20your%20organization/how-to-identify-the-right-spans-of-control-for-your-organization.pdf	UNREACHABLE: curl (HEAD and GET, browser UA) and WebFetch all time out (000) for the PDF and for the article page https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/how-to-identify-the-right-spans-of-control-for-your-organization — mckinsey.com blocks automated clients, so this may be bot-blocking rather than a dead file; verify in a browser and prefer the article-page URL (or an archive.org capture) over the /~/media PDF path
+44	1	403/GET:403	https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965	BOT-BLOCKED (not a broken link; opens in a browser)
+45	192	200	https://zinnov.com/global-talent/high-performer-attrition-gcc-india-2026-zinnov-blog/	OK
+46	132	403/GET:403	https://dl.acm.org/doi/10.1207/S15327051HCI1523_4	BOT-BLOCKED (not a broken link; opens in a browser)
+47	90	403/GET:403	https://pubsonline.informs.org/doi/10.1287/inte.4.3.28	BOT-BLOCKED (not a broken link; opens in a browser)
+48	13	200	https://www.jeremiahlee.com/posts/failed-squad-goals/	OK
+49	211	200	https://corporate.walmart.com/about/international/markets/india	OK
+50	14	200	https://engineering.atspotify.com/2020/10/spotifys-new-experimentation-platform-part-1	OK
+51	34	200	https://www.allthingsdistributed.com/2020/01/aws-datalake.html	OK
+52	81	404/GET:200	https://thenextweb.com/news/paramount-streaming-tech-stack-pluto-tv-hbo-max	OK
+53	27	200	https://www.greaterzuricharea.com/en/news/google-opens-innovation-center-zurich	OK
+54	3	403/GET:403	https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d	BOT-BLOCKED (not a broken link; opens in a browser)
+55	4	403/GET:403	https://netflixtechblog.com/a-day-in-the-life-of-an-experimentation-and-causal-inference-scientist-netflix-388edfb77d21	BOT-BLOCKED (not a broken link; opens in a browser)
+56	23	403/GET:403	https://medium.com/spotify-insights/cross-disciplinary-insights-teams-how-we-integrate-data-scientists-and-user-researchers-at-spotify-cd8086285f0e	BOT-BLOCKED (not a broken link; opens in a browser)
+57	16	200	https://engineering.atspotify.com/2024/4/data-platform-explained	OK
+58	15	200	https://engineering.atspotify.com/2023/8/coming-soon-confidence-an-experimentation-platform-from-spotify	OK
+59	21	200	https://www.musicbusinessworldwide.com/spotify-opens-research-and-development-hub-in-london/	OK
+60	28	200	https://www.businessofgcc.com/gcc-data/companies/google-llc-alphabet-inc-india	OK
+61	29	200	https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/	OK
+62	32	200	https://hbr.org/2017/09/the-surprising-power-of-online-experiments	OK
+63	35	200	https://gulfnews.com/business/amazon-opens-largest-campus-1.65925605	OK
+64	43	200	https://thewaltdisneycompany.com/news/adam-smith-disney-chief-product-technology-officer-entertainment-espn/	OK
+65	51	200	https://www.databricks.com/blog/2020/12/14/learn-how-disney-built-their-streaming-data-analytics-platform-with-databricks-and-aws-to-improve-the-customer-experience.html	OK
+66	52	200	https://www.snowflake.com/en/blog/how-disney-streaming-uses-the-data-cloud-for-data-governance-and-data-sharing/	OK
+67	59	200	https://www.wbd.com/warner-bros-discovery-announces-olli-new-first-party-data-platform-powering-converged-audience-solutions	OK
+68	74	200	https://together.nbcuni.com/insights/news/one-platform-hits-key-operational-milestones/	OK
+69	72	200	https://www.wayup.com/i-j-NBCUniversal-448809240288921/	OK
+70	69	200	https://careers.sky.com/locations/leeds	OK
+71	70	200	https://jobs.comcast.com/asia	OK
+72	78	200	https://en.wikipedia.org/wiki/Pluto_TV	OK
+73	5	403/GET:200	https://about.netflix.com/en/news/netflix-to-open-new-engineering-hub-in-poland	OK
+74	7	403/GET:403	https://ir.netflix.net/governance/Leadership-and-directors/default.aspx	BOT-BLOCKED (not a broken link; opens in a browser)
+75	8	200	https://au.variety.com/2026/tv/news/netflix-elizabeth-stone-chief-product-and-technology-officer-32672	OK
+76	10	200	https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf	OK
+77	19	200	https://newsroom.spotify.com/2023-01-23/an-update-on-january-2023-organizational-changes/	OK
+78	20	200	https://newsroom.spotify.com/2023-12-04/an-update-on-december-2023-organizational-changes/	OK
+79	25	200	https://blog.google/technology/ai/april-ai-update/	OK
+80	26	200	https://blog.google/around-the-globe/google-europe/zurich-expanding-our-european-tech-hub/	OK
+81	39	200	https://thewaltdisneycompany.com/press-releases/the-walt-disney-company-announces-strategic-reorganization-of-its-media-and-entertainment-businesses/	OK
+82	40	200	https://thewaltdisneycompany.com/press-releases/walt-disney-company-announces-strategic-reorganization/	OK
+83	41	200	https://en.wikipedia.org/wiki/Disney_Media_and_Entertainment_Distribution	OK
+84	44	200	https://variety.com/2024/digital/news/hulu-on-disney-plus-official-launch-bundle-1235952711/	OK
+85	56	200	https://techcrunch.com/2023/05/05/warner-bros-discovery-cto-and-cpo-explain-how-they-made-max-less-buggy/	OK
+86	62	200	https://telanganatoday.com/warner-bros-discoverys-hyderabad-capability-centre-inaugurated	OK
+87	64	200	https://www.wbd.com/news/warner-bros-discovery-separate-two-leading-media-companies	OK
+88	65	200	https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance	OK
+89	87	200	https://en.wikipedia.org/wiki/Discovery%2B	OK
+90	66	200	https://aws.amazon.com/solutions/case-studies/peacock-case-study/	OK
+91	68	200	https://www.lightreading.com/video-broadcast/peacock-s-global-streaming-strategy-takes-flight-with-sky	OK
+92	75	200	https://www.forbes.com/sites/joecornell/2026/01/06/comcast-completes-spin-off-of-versant-media-group/	OK
+93	77	200	https://en.wikipedia.org/wiki/Paramount%2B	OK
+94	80	200	https://thedesk.net/2026/06/paramount-pluto-tv-drm-technical-stack-merger/	OK
+95	82	200	https://www.ciodive.com/news/paramount-cto-steps-down/820515/	OK
+96	85	200	https://www.cbsnews.com/news/paramount-layoffs-merger-skydance/	OK
+97	88	200	https://deadline.com/2023/10/paramount-streaming-restructure-pluto-1235582992/	OK
+98	9	200	https://www.siasat.com/revanth-reddy-to-launch-netflix-studios-office-in-hyderabad-on-mar-12-3425752/	OK
+99	11	200	https://blog.crisp.se/2015/06/07/henrikkniberg/no-i-didnt-invent-the-spotify-model	OK
+100	12	200	https://theagilerevolution.com/2016/07/06/episode-112-inside-spotify-with-anders-ivarsson/	OK
+101	18	200	https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation	OK
+102	30	405/GET:200	https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595	OK
+103	38	200	https://pedrodelgallego.github.io/blog/amazon/single-threaded-model/	OK
+104	37	200	https://www.outlookbusiness.com/corporate/exclusive-amazon-prime-video-rejigs-india-leadership-structure-as-top-job-remains-vacant-amid-battle-with-jiostar	OK
+105	33	200	https://www.awa-digital.com/blog/truth-about-amazon-booking-experimentation-culture/	OK
+106	42	200	https://variety.com/2024/tv/news/disney-espn-aaron-laberge-exit-penn-entertainment-1235978219/	OK
+107	45	200	https://techcrunch.com/2023/05/10/disney-and-hulu-content-combine-into-one-app-later-this-year/	OK
+108	46	200	https://variety.com/2025/digital/news/hulu-app-phased-out-disney-plus-fully-integrating-1236480450/	OK
+109	47	403/GET:200	https://www.techrepublic.com/article/news-hulu-app-shutdown-disney-transition/	OK
+110	48	200	https://www.thewrap.com/disney-product-technology-layoffs/	OK
+111	55	200	https://blog.bytebytego.com/p/how-disney-hotstar-now-jiohotstar	OK
+112	57	200	https://techcrunch.com/2022/08/15/layofs-hbo-max-discovery/	OK
+113	58	200	https://variety.com/2024/tv/news/warner-bros-discovery-lays-off-1000-employees-finance-max-1236074169/	OK
+114	61	200	https://telanganatoday.com/warner-bros-discovery-to-set-up-development-centre-in-hyderabad	OK
+115	63	200	https://www.businessofgcc.com/gcc-data/companies/warner-bros-discovery-india-hyderabad	OK
+116	73	405/GET:200	https://www.showbizjobs.com/jobs/peacock-director-of-data-science-decision-science-in-new-york/jid-rezn47	OK
+117	79	200	https://en.wikipedia.org/wiki/Paramount_Streaming	OK
+118	86	200	https://www.prnewswire.com/news-releases/paramount-global-announces-worldwide-expansion-of-eyeq-301973757.html	OK
+119	83	200	https://www.informationweek.com/it-leadership/paramount-cto-on-shedding-legacy-systems-for-general-compute	OK
+120	84	200	https://variety.com/2024/tv/news/paramount-tv-streaming-distribution-layoffs-1236246417/	OK
+121	95	403/GET:403	https://www.sciencedirect.com/science/article/abs/pii/S0048733312001205	BOT-BLOCKED (not a broken link; opens in a browser)
+122	126	200	https://www.getdbt.com/blog/data-team-structure	OK
+123	124	200	https://locallyoptimistic.com/post/one-size-fits-none/	OK
+124	91	403/GET:403	https://www.researchgate.net/publication/256924085_The_Multi-Dimensional_and_Reconfigurable_Organization	BOT-BLOCKED (not a broken link; opens in a browser)
+125	93	200	https://hbr.org/1981/01/organization-design-fashion-or-fit	OK
+126	94	200	https://www.melconway.com/Home/pdf/committees.pdf	OK
+127	98	404/GET:200	https://www.thoughtworks.com/en-us/radar/techniques/inverse-conway-maneuver	OK
+128	99	200	https://herbsleb.org/web-pubs/pdfs/herbsleb-architectures-1999.pdf	OK
+129	100	403/GET:403	https://dl.acm.org/doi/10.1145/1414004.1414008	BOT-BLOCKED (not a broken link; opens in a browser)
+130	102	200	https://teamtopologies.com/key-concepts	OK
+131	121	200	https://www.thoughtworks.com/insights/blog/data-strategy/the-state-of-data-mesh-in-2026-from-hype-to-hard-won-maturity	OK
+132	105	200	https://www.nickols.us/graicunas.htm	OK
+133	106	200	https://en.wikipedia.org/wiki/Span_of_control	OK; NOTE: Wikipedia stands in for Urwick HBR 1956
+134	107	200	https://psychclassics.yorku.ca/Miller/	OK
+135	109	200	https://rework.withgoogle.com/intl/en/guides/following-the-data-the-research-behind-great-managers	OK
+136	112	200	https://lethain.com/running-an-engineering-reorg/	OK
+137	110	200	https://press.stripe.com/an-elegant-puzzle	OK
+138	113	200	https://lethain.com/durably-excellent-teams/	OK
+139	114	200	https://lethain.com/organizational-risk/	OK
+140	115	200	https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/	OK
+141	117	200	https://dora.dev/capabilities/loosely-coupled-teams/	OK
+142	118	200	https://dora.dev/research/2023/dora-report/	OK
+143	125	200	https://locallyoptimistic.com/post/the-data-business-partnership/	OK
+144	127	200	https://roundup.getdbt.com/p/data-teams-embedded-or-centralized	OK
+145	128	200	https://mode.com/blog/centralizing-analytics-team-structure/	OK
+146	123	200	https://benn.substack.com/p/disband-the-analytics-team	OK
+147	129	200	https://dataproducts.substack.com/p/the-rise-of-data-contracts	OK
+148	119	200	https://martinfowler.com/articles/data-monolith-to-mesh.html	OK
+149	120	200	https://www.oreilly.com/library/view/data-mesh/9781492092384/	OK
+150	122	200	https://jennykwan.org/posts/data-mesh-foundation-part-1/	OK
+151	138	403/GET:403	https://netflixtechblog.com/part-1-a-survey-of-analytics-engineering-work-at-netflix-d761cfd551ee	BOT-BLOCKED (not a broken link; opens in a browser)
+152	134	403/GET:403	https://dl.acm.org/doi/10.2753/MIS0742-1222270102	BOT-BLOCKED (not a broken link; opens in a browser)
+153	135	403/GET:403	https://pubsonline.informs.org/doi/10.1287/orsc.14.6.615.24872	BOT-BLOCKED (not a broken link; opens in a browser)
+154	187	200	https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-report-the-5-year-journey-report/	OK
+155	190	200	https://www.storyboard18.com/how-it-works/81-of-gccs-upskill-talent-in-genai-niche-hiring-at-63-cuts-attrition-to-9-ey-84664.htm	OK
+156	202	200	https://www.business-standard.com/article/technology/tcs-acquires-citigroup-global-services-for-505-million-108100901055_1.html	OK
+157	189	200	https://www.ey.com/en_in/newsroom/2025/11/58-percent-gccs-in-india-investing-in-agentic-ai-two-third-creating-dedicated-innovation-teams-to-globalize-ideas-ey-gcc-pulse-survey-2025	OK
+158	209	200	https://www.jpmorganchase.com/newsroom/press-releases/2023/jpmorgan-chase-opens-new-offices-in-mumbai-and-bengaluru	OK
+159	206	200	https://ansr.com/case-study/retail/stores-supermarket/target/	OK
+160	212	200	https://corporate.walmart.com/news/2022/03/15/walmart-global-tech-accelerates-expansion-with-plans-to-hire-thousands-of-technologists-and-add-new-locations	OK
+161	213	200	https://en.wikipedia.org/wiki/Flipkart	OK
+162	214	403/GET:200	https://jobs.netflix.com/locations/mumbai-india	OK
+163	216	200	https://www.aboutamazon.in/workplace/corporate-offices	OK
+164	201	200	https://www.cio.com/article/282016/outsourcing-4-new-offshore-captive-center-models.html	OK
+165	193	200	https://zinnov.com/salary-increase-attrition-hiring-trends-an-india-gcc-view-2026/	OK
+166	204	403/GET:403	https://dl.acm.org/doi/10.1145/1287624.1287643	BOT-BLOCKED (not a broken link; opens in a browser)
+167	195	200	https://www.storyboard18.com/how-it-works/it-firms-report-stable-attrition-in-q2-paving-way-for-campus-hiring-surge-in-fy-25-46769.htm	OK
+168	139	200	https://www.hachettebookgroup.com/titles/erin-meyer/the-culture-map/9781610392501/	OK
+169	149	200	https://martinfowler.com/bliki/ConwaysLaw.html	OK
+170	140	200	https://www.oreilly.com/library/view/the-engineering-executives/9781098149475/	OK
+171	145	200	https://lethain.com/	OK
+172	141	200	https://www.wiley.com/en-us/designing-organizations-strategy-structure-and-process-at-the-business-unit-and-enterprise-levels-3rd-edition-p-9781118409954	OK
+173	142	200	https://press.stripe.com/scaling-people	OK
+174	143	200	https://www.hachette.co.uk/titles/stephen-bungay/the-art-of-action/9781857885590/	OK
+175	144	500	https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/BFFD7CC0B7325B5DCEEFFB1DD9401F7E	BROKEN (HTTP 500 on HEAD and GET). REPLACE WITH https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59 (HTTP 200; also the resolution target of https://doi.org/10.1017/9781108653985)
+176	157	200	https://www.penguinrandomhouse.com/books/72467/high-output-management-by-andrew-s-grove-former-chairman-and-ceo-of-intel/	OK
+177	158	200	https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/	OK
+178	159	200	https://books.google.com/books/about/Structure_in_Fives.html?id=nR5HAAAAMAAJ	OK
+179	160	200	https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/	OK
+180	146	200	https://teamtopologies.com/news	OK
+181	147	200	https://newsletter.pragmaticengineer.com/	OK
+182	148	200	https://www.elidedbranches.com/	OK
+183	150	403/GET:403	https://netflixtechblog.com/	BOT-BLOCKED (not a broken link; opens in a browser)
+184	151	200	https://roundup.getdbt.com/	OK
+185	152	200	https://charity.wtf/	OK
+186	153	200	https://engineering.atspotify.com/	OK
+187	154	200	https://leaddev.com/	OK
+188	155	200	https://locallyoptimistic.com/	OK
+189	156	200	https://experimentguide.com/	OK
+190	161	200	https://getdx.com/podcast/	OK
+191	162	200	https://getdx.com/podcast/designing-the-ai-native-engineering-organization/	OK
+192	163	200	https://getdx.com/podcast/adopting-the-product-operating-model-at-priceline/	OK
+193	164	200	https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199	OK
+194	165	200	https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama	OK
+195	166	200	https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for	OK
+196	167	200	https://roundup.getdbt.com/s/the-analytics-engineering-podcast	OK
+197	168	200	https://roundup.getdbt.com/p/the-scarce-resource-is-consensus	OK
+198	169	200	https://roundup.getdbt.com/p/data-lessons-from-inside-meta-shridhar	OK
+199	170	200	https://www.lennysnewsletter.com/podcast	OK
+200	171	200	https://www.lennysnewsletter.com/p/lessons-from-scaling-stripe-tactics	OK
+201	172	200	https://www.lennysnewsletter.com/p/the-engineering-mindset-will-larson	OK
+202	173	200	https://www.lennysnewsletter.com/p/engineering-leadership-camille-fournier	OK
+203	174	404/GET:200	https://www.thoughtworks.com/insights/podcasts/technology-podcasts/organizational-design-team-topologies-ai	OK
+204	175	200	https://se-radio.net/2024/12/se-radio-646-matthew-skelton-on-team-topologies/	OK
+205	176	200	https://www.dataengineeringpodcast.com/	OK
+206	177	200	https://www.dataengineeringpodcast.com/episodepage/building-and-managing-data-teams-and-data-platforms-in-large-organizations-with-ashish-mrig	OK
+207	178	200	https://www.dataengineeringpodcast.com/episodepage/revisiting-the-technical-and-social-benefits-of-the-data-mesh	OK
+208	179	429/GET:429	https://linearb.io/dev-interrupted	BOT-BLOCKED (not a broken link; opens in a browser)
+209	180	429/GET:429	https://linearb.io/dev-interrupted/podcast/team-topologies-organizing-business-technology-teams	BOT-BLOCKED (not a broken link; opens in a browser)
+210	181	429/GET:429	https://linearb.io/dev-interrupted/podcast/the-end-of-specialization-how-ai-shapes-modern-dev-teams	BOT-BLOCKED (not a broken link; opens in a browser)
+211	182	200	https://softwareengineeringdaily.com/	OK
+212	183	200	https://softwareengineeringdaily.com/podcasts/sleuth-and-the-future-of-engineering-teams-with-dylan-etkin/	OK
+213	184	200	https://datastackshow.com/	OK
+214	185	200	https://datastackshow.com/podcast/a-decade-of-change-in-the-data-space-with-benn-stancil-of-mode/	OK
+215	136	202	https://www.semanticscholar.org/paper/Differentiation-and-Integration-in-Complex-Lawrence-Lorsch/4ce571e2e5c5d6a5a67cb095e12749a292956572	OK
+216	199	200	https://www.cio.com/article/282074/outsourcing-the-captive-model-for-offshoring-is-thriving-says-research-firm.html	OK
