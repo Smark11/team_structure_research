@@ -1,6 +1,6 @@
 # Final report — how the recommendation evolved, and what remains uncertain
 
-**Date:** 2026-08-30. Three full review cycles (four reviewers each: red team, fact-checker, editor, design critic) plus a verification round. This file is the narrative; the item-by-item record is in `cycle-N-*.md` and `cycle-N-responses.md`.
+**Date:** 2026-08-30. Three full review cycles (four reviewers each: red team, fact-checker, editor, design critic) plus four verification rounds. This file is the narrative; the item-by-item record is in `cycle-N-*.md` and `cycle-N-responses.md`.
 
 ## The recommendation, before and after review
 
@@ -23,7 +23,7 @@
 
 **v3.1 (after cycle 3).** Eleven blocking items across the four reviews, all mechanical: v2 sentences that had survived on pages the rebuild agents didn't re-touch, one arithmetic error (the cost headline was not the cost table's own subtraction — corrected to +$1.7–3.5M/yr), a build bug corrupting the Sources page's markup, and two clipped SVG text lines. Every non-blocking reservation was folded in as well: the fiscal-quarter definition of G1, the honest Gate-0 critical path ("target months 3–4 best case; modal 4–6"), a Gate-1 failure rule, the decommissioning attestation's named systems and a definition of "adopted," the else-branch's legal condition, the unwind cost stated as a cost rather than a savings line.
 
-**Cycle 4** was a pure verification round against the exit criterion (zero blocking findings from all four reviewers in the same cycle); its verdicts are recorded in `cycle-4-*.md`.
+**Cycles 4–7** were verification rounds against the exit criterion (zero blocking findings from all four reviewers). Cycle 4 earned its keep: three of the four verifiers independently caught that the cycle-3 fixes, fully applied in the memo and on three pages, had never been propagated to Applying It — the responses log had recorded them as applied when they were not. The gap was fixed and the false log entry documented in `cycle-4-responses.md`. Cycle 5 signed off from the red team and the fact-checker and caught splice residue from the repairs themselves (an orphaned sentence tail, a broken anchor); cycles 6 and 7 chased that residue to zero. The lesson the record keeps: mechanical fixes need the same verification as substantive ones, and a disposition is not "applied" until the served page has been checked for the new text.
 
 ## What the reviews changed that a reader should know about
 
