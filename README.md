@@ -2,7 +2,7 @@
 
 A decision-support site, and the complete research record behind it, on one question: **what charter should a new India engineering site have inside a ~140-person data organization at a large streaming/media company — full domain ownership, platform/capability ownership, a graduating extension, or a hybrid — and what does the answer do to the rest of the org?**
 
-The published site (GitHub Pages, from `main:/docs`) is genericized: it never names the company. The full-context memo lives only in this repo, at [`decision-memo.md`](decision-memo.md).
+**Published site: <https://smark11.github.io/team_structure_research/>** (GitHub Pages, from `main:/docs`). The site is genericized: it never names the company. The full-context memo is at [`decision-memo.md`](decision-memo.md).
 
 ## The answer, in one sentence
 
