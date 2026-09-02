@@ -26,9 +26,9 @@ Charter the India site as the accountable owner of whole platform components —
 | Path | What it is |
 |---|---|
 | `/docs` | The published site: seven hand-authored static pages, no framework, no build step needed to serve. 200 numbered citations resolving to a Sources page with evidence tags (documented / inferred / folklore) and access dates; judgment calls visibly labeled. |
-| `/research` | The research record: five parallel research reports (`c1`–`c5`: streaming-native cases, legacy-media cases, the academic canon, a verified learning plan, India GCC evidence), `synthesis.md` (cross-cutting findings and tensions), `recommendation.md` (the memo, v3.1; v1–v2 in git history), `sources.json` (217 verified sources), `source-map.md`. |
-| `/reviews` | Three full review cycles plus a verification round, four reviewers each (red team, fact-checker with URL sweeps, editor, design critic with rendered screenshots), every numbered critique answered item-by-item in `cycle-N-responses.md`; `final-report.md` tells the story. |
-| `/decision-memo.md` | The full-context memo (repo only). |
+| `/research` | The research record: five parallel research reports (`c1`–`c5`: streaming-native cases, legacy-media cases, the academic canon, a verified learning plan, India GCC evidence), `synthesis.md` (cross-cutting findings and tensions), `recommendation.md` (the memo, v3.1; v1–v3 in git history), `sources.json` (217 verified sources), `source-map.md`. |
+| `/reviews` | Three full review cycles plus four verification rounds, four reviewers each (red team, fact-checker with URL sweeps, editor, design critic with rendered screenshots), every numbered critique answered item-by-item in `cycle-N-responses.md`; `final-report.md` tells the story. |
+| `/decision-memo.md` | The full-context memo — the copy to annotate with real headcounts, vendor terms and finance numbers. |
 | `/site-plan.md` | The site's information architecture and design system (two-hue ownership colour, Newsreader/Archivo/JetBrains Mono, reading column with marginalia rail). |
 | `/tools` | Authoring-time build: `build.py` (wraps content fragments, numbers sources site-wide in citation order, collapses citation runs, sets smart quotes, generates the Sources page), `check-citations.py` (every paragraph and list item must carry a citation or a judgment label), the page template and component guide. |
 
